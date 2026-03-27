@@ -1,25 +1,25 @@
 # 🚀 Subscription Tracker API (Spring Boot)
 
-Ek simple aur powerful REST API jo aapki digital subscriptions (jaise Netflix, Spotify, Prime) ko manage karne mein madad karti hai. Is project ko maine **Spring Boot** aur **H2 Database** ka use karke banaya hai.
+A robust and simple REST API designed to manage digital subscriptions (e.g., Netflix, Spotify, Amazon Prime). This project is built using **Spring Boot 3.x** and uses an **In-memory H2 Database** for quick testing and development.
 
 ## 📌 Project Overview
-Aaj kal hum sabke paas bahut saari subscriptions hoti hain aur unhe yaad rakhna mushkil hota hai. Yeh API ek backend solution hai jo user ko apni subscriptions add karne, dekhne aur delete karne ki suvidha deta hai.
+Managing multiple digital subscriptions can be a hassle. This Backend API provides a centralized solution where users can store, view, and manage their subscription details, including prices and expiry dates.
 
 ## 🛠 Tech Stack
-- **Java 17**
-- **Spring Boot 3.x**
-- **Spring Data JPA** (Database interaction ke liye)
-- **H2 Database** (In-memory storage)
-- **Maven** (Dependency management)
+- **Language:** Java 17
+- **Framework:** Spring Boot 3.x
+- **Data Access:** Spring Data JPA (Hibernate)
+- **Database:** H2 (In-memory)
+- **Build Tool:** Maven
 
 ## 🏗 Project Architecture
-Maine isme **3-Tier Architecture** follow kiya hai:
-1. **Controller**: Web requests handle karne ke liye.
-2. **Service**: Business logic aur validation ke liye.
-3. **Repository**: Database se data nikalne/save karne ke liye.
-4. **Model/Entity**: Data ka structure define karne ke liye.
+The project follows a standard **3-Tier Architecture** for clean code management:
+1. **Controller Layer**: Handles REST API requests and responses.
+2. **Service Layer**: Contains business logic and data processing.
+3. **Repository Layer**: Communicates with the H2 Database using JPA.
+4. **Model/Entity**: Defines the structure of the 'Subscription' data.
 
-## 🚀 Kaise Chalayein? (How to Run)
-1. Repository ko clone karein:
+## 🚀 How to Run?
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/subhamsahoo-4/Subscription-Tracker-SpringBoot.git](https://github.com/subhamsahoo-4/Subscription-Tracker-SpringBoot.git)
